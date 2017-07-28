@@ -1,0 +1,14 @@
+@font-face {
+  font-family: NexaBold;
+  src: url("../NexaBold/nexabold.otf") format("opentype");
+}
+
+@import 'nav';
+@import 'variables';
+@import 'contact-form';
+@import 'slider';
+
+body {
+  padding: 0;
+  margin: 0;
+}
