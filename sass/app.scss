@@ -3,7 +3,7 @@
   src: url("../NexaBold/nexabold.otf") format("opentype");
 }
 
-@import '../node_modules/flexboxgrid/css/flexboxgrid.css';
+@import 'flexboxgrid';
 @import 'nav';
 @import 'variables';
 @import 'contact-form';
