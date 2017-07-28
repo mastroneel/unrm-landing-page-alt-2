@@ -1,115 +1,125 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>United Risk</title>
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="node_modules/flexboxgrid/css/flexboxgrid.css">
-    <script
-  src="http://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
-    <div class="form-container">
-      <img src="img/logo.png">
-      <form>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <p>First Name</p>
-            <input type="text" class="name">
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <p>Last Name</p>
-            <input type="text" class="name">
-          </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>United Risk</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="node_modules/flexboxgrid/css/flexboxgrid.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="form-container">
+    <img src="img/logo.png">
+    <form>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <p>First Name</p>
+          <input type="text" class="name">
         </div>
-        <div class="row">
-          <div class="col-xs-12">
-            <p>Email</p>
-            <input type="email">
-            <p>Phone Number</p>
-            <input type="tel">
-            <br>
-            <input type="submit" value="Submit" class="submit-button">
-          </div>
+        <div class="col-xs-12 col-sm-6">
+          <p>Last Name</p>
+          <input type="text" class="name">
         </div>
-      </form>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <p>Email</p>
+          <input type="email">
+          <p>Phone Number</p>
+          <input type="tel">
+          <br>
+          <input type="submit" value="Submit" class="submit-button">
+        </div>
+      </div>
+    </form>
+  </div>
+  <div id="slider">
+    <!-- <a href="#" class="control_next">></a>
+        <a href="#" class="control_prev"><</a> -->
+    <ul>
+      <li>
+        <h5>"In my experience, United Risk will go to bat for you every time and make sure you get the best deal out there, PERIOD!"</h5>
+        <h6>- S. Verschleisser,</h6>
+        <p>Sapphire Management</p>
+      </li>
+      <li>
+        <h5>"Zack Mehl at United Risk is on top of his game, and always seem to be in touch with the ever-changing world of Insurance for my Apartment and Commercial buildings, Property and Liability Insurance. United Risk is a large agency with a personal touch!"</h5>
+        <h6>- Jay Newhouse,</h6>
+        <p>RJ Block Properties</p>
+      </li>
+      <li>
+        <h5>"I know first hand that United Risk treats each and every renewal like a new purchase to ensure I always get the right coverages at a great rate. They consistently improve the NOI of my Multifamily buildings across the USA."</h5>
+        <h6>- M. Fischer,</h6>
+        <p>RI Management</p>
+      </li>
+    </ul>
+  </div>
+  <div class="pre-footer">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <h5>Some typical coverages</h5>
+        <ul>
+          <li>All risk property coverage</li>
+          <li>Rental coverage</li>
+          <li>General liability, including or excluding lead and mold</li>
+          <li>Directors & Officers liability coverage for condos and co-ops</li>
+          <li>Boiler and machinery/equipment breakdown</li>
+          <li>Crime coverage</li>
+          <li>Umbrella, up to $200 million limit at very affordable premiums</li>
+          <li>Workers' compensation</li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <h5>Our Locations</h5>
+        <ul>
+          <li>
+            134 Broadway,
+            Brooklyn, NY 11249
+          </li>
+          <li>
+            216 River Avenue,
+            Lakewood, NJ 08701
+          </li>
+          <li>
+            148 Doughty Blvd,
+            Inwood, NY 11096
+          </li>
+        </ul>
+      </div>
     </div>
-
-
-      <h1>Incredibly Basic Slider</h1>
-    <div id="slider">
-      <a href="#" class="control_next">></a>
-      <a href="#" class="control_prev"><</a>
-      <ul>
-        <li>SLIDE 1</li>
-        <li style="background: #aaa;">SLIDE 2</li>
-        <li>SLIDE 3</li>
-        <li style="background: #aaa;">SLIDE 4</li>
-      </ul>
+  </div>
+  <div class="footer">
+    <div class="row">
+      <div class="col-xs-12">
+        <h6>Copyright 2016 All Rights Reserved www.unrm.com United Risk Management.</h6>
+      </div>
     </div>
-
-
-      <script type="text/javascript">
-      jQuery(document).ready(function ($) {
-
-  setInterval(function () {
-      moveRight();
-  }, 3000);
-
-var slideCount = $('#slider ul li').length;
-var slideWidth = $('#slider ul li').width();
-var slideHeight = $('#slider ul li').height();
-var sliderUlWidth = slideCount * slideWidth;
-
-$('#slider').css({ width: slideWidth, height: slideHeight });
-
-$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
-
-  $('#slider ul li:last-child').prependTo('#slider ul');
-
-  function moveLeft() {
-      $('#slider ul').animate({
-          left: + slideWidth
-      }, 200, function () {
-          $('#slider ul li:last-child').prependTo('#slider ul');
-          $('#slider ul').css('left', '');
-      });
-  };
-
-  function moveRight() {
-      $('#slider ul').animate({
-          left: - slideWidth
-      }, 200, function () {
-          $('#slider ul li:first-child').appendTo('#slider ul');
-          $('#slider ul').css('left', '');
-      });
-  };
-
-  $('a.control_prev').click(function () {
-      moveLeft();
-  });
-
-  $('a.control_next').click(function () {
-      moveRight();
-  });
-
-});
-
-      </script>
+    <div class="row">
+      <div class="col-xs-12">
+        <ul>
+          <li><a href="business_insurance.html">Business Insurance</a><span>|</span></li>
+          <li><a href="construction_insurance.html">Construction Insurance</a><span>|</span></li>
+          <li><a href="personal_insurance.html">Personal Insurance</a><span>|</span></li>
+          <li><a href="RE.html">Real Estate Insurance</a><span>|</span></li>
+          <li><a href="workers_comp.html">Workers Compensation</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
 
 
+  <script type="text/javascript" src="scripts/slider.js"></script>
+</body>
 
-
-  </body>
 </html>
