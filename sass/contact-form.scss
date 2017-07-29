@@ -1,12 +1,32 @@
 @import 'variables';
 
 .form-container {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   background: $gray;
   margin-top: 85px;
-  padding: 40px 40px 80px 40px;
+  padding: 40px 20px 80px 20px;
   border-radius: 4px;
+  text-align: center;
+  img {
+    width: 50%;
+  }
+  .form-header {
+    h2 {
+      text-align: left;
+      font-family: NexaBold;
+      color: $dark-blue;
+      font-size: 30px;
+    }
+    .border {
+      height: 0;
+      border: 1px solid $medium-blue;
+      margin-bottom: 20px;
+    }
+    img {
+      width: 100%;
+    }
+  }
   form {
     text-align: center;
     p {
@@ -42,9 +62,14 @@
 
 @media (max-width: 450px) {
   .form-container {
-    padding: 40px 20px 80px 20px;
+    padding: 40px 10px 80px 10px;
     img {
       width: 95%;
+    }
+    .form-header {
+      img {
+        display: none;
+      }
     }
   }
 }
