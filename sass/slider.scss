@@ -1,7 +1,7 @@
 #slider {
   position: relative;
   overflow: hidden;
-  margin: 100px auto 0px auto;
+  margin: 10px auto 0px auto;
   border-radius: 4px;
 }
 
@@ -33,6 +33,7 @@
   h6 {
     color: $medium-blue;
     font-size: 22px;
+    margin-top: -10px;
   }
   p {
     color: $light-blue;
@@ -88,6 +89,9 @@
 @media (max-width: 530px) {
   #slider ul li {
     width: 400px;
+    h5 {
+      font-size: 18px;
+    }
   }
 }
 

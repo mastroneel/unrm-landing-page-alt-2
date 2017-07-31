@@ -1,0 +1,37 @@
+.box-row {
+  width: 50%;
+  background: $medium-blue;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+  .description {
+    text-indent: 40px;
+    margin-top: -10px;
+  }
+  .info {
+    margin-top: 30px;
+  }
+  strong {
+    font-family: NexaBold;
+    font-size: 17px;
+  }
+}
+
+
+
+@media (max-width: 1050px) {
+  .box-row {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .box-row {
+    width: 85%;
+  }
+}

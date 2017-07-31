@@ -1,6 +1,7 @@
 .pre-footer {
   background: $gray;
-  padding: 50px;
+  padding: 0px 50px;
+  margin-top: -80px;
   h5 {
     font-family: NexaBold;
     color: $dark-blue;
@@ -67,5 +68,23 @@
         display: none;
       }
     }
+  }
+}
+
+@media (max-width: 745px) {
+  .pre-footer {
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 530px) {
+  .pre-footer {
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 420px) {
+  .pre-footer {
+    margin-top: -30px;
   }
 }
