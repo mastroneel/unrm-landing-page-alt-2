@@ -17,7 +17,7 @@
       font-family: NexaBold;
       color: $dark-blue;
       font-size: 18px;
-      margin-top: 10px;
+      margin-top: 20px;
     }
     .border {
       height: 0;
@@ -65,7 +65,7 @@
 
 @media (max-width: 450px) {
   .form-container {
-    padding: 20px 10px 30px 10px;
+    padding: 20px 0px 30px 0px;
     width: 90%;
     margin-top: 60px;
     img {
@@ -78,6 +78,7 @@
       input {
         height: 30px;
         font-size: 20px;
+        width: 95%;
       }
       .submit-button {
         height: 40px;

@@ -784,7 +784,7 @@ nav {
     font-family: NexaBold;
     color: #0a4a7b;
     font-size: 18px;
-    margin-top: 10px; }
+    margin-top: 20px; }
   .form-container .form-header .border {
     height: 0;
     border: 1px solid #0673c0;
@@ -820,7 +820,7 @@ nav {
     width: 70%; } }
 @media (max-width: 450px) {
   .form-container {
-    padding: 20px 10px 30px 10px;
+    padding: 20px 0px 30px 0px;
     width: 90%;
     margin-top: 60px; }
     .form-container img {
@@ -829,7 +829,8 @@ nav {
       margin-top: 10px; }
     .form-container form input {
       height: 30px;
-      font-size: 20px; }
+      font-size: 20px;
+      width: 95%; }
     .form-container form .submit-button {
       height: 40px;
       line-height: 40px;
