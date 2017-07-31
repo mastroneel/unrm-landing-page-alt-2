@@ -948,9 +948,7 @@ nav {
     margin-top: -60px; } }
 @media (max-width: 420px) {
   .pre-footer {
-    margin-top: -30px; } }
-@media (max-width: 400px) {
-  .pre-footer {
+    margin-top: -30px;
     padding: 0; }
     .pre-footer .locations li {
       line-height: 2.5;
@@ -958,6 +956,9 @@ nav {
       .pre-footer .locations li img {
         height: 12px;
         margin-right: 5px; } }
+@media (max-width: 400px) {
+  .footer ul {
+    margin-left: -17px; } }
 .box-row {
   width: 50%;
   background: #0673c0;

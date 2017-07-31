@@ -86,11 +86,6 @@
 @media (max-width: 420px) {
   .pre-footer {
     margin-top: -30px;
-  }
-}
-
-@media (max-width: 400px) {
-  .pre-footer {
     padding: 0;
     .locations {
       li {
@@ -101,6 +96,14 @@
           margin-right: 5px;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .footer {
+    ul {
+      margin-left: -17px;
     }
   }
 }
