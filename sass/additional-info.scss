@@ -42,6 +42,7 @@
   .box-container {
     width: 75%;
     margin-top: 20px;
+    height: auto;
   }
 }
 
@@ -63,7 +64,6 @@
 
 @media (max-width: 400px) {
   .box-container {
-    height: 650px;
     font-size: 14px;
     strong {
       font-size: 15px;

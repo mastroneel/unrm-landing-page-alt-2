@@ -1029,7 +1029,8 @@ nav {
 @media (max-width: 992px) {
   .box-container {
     width: 75%;
-    margin-top: 20px; } }
+    margin-top: 20px;
+    height: auto; } }
 @media (max-width: 512px) {
   .box-container {
     font-size: 15px; }
@@ -1041,7 +1042,6 @@ nav {
     margin-top: 20px; } }
 @media (max-width: 400px) {
   .box-container {
-    height: 650px;
     font-size: 14px; }
     .box-container strong {
       font-size: 15px; } }
