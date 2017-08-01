@@ -104,6 +104,12 @@
 
 @media (max-width: 482px) {
   .form-container {
-    width: 95%;
+    width: 85%;
+  }
+}
+
+@media (max-width: 450px) {
+  .form-container {
+    width: 100%;
   }
 }

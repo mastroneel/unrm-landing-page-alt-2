@@ -843,7 +843,10 @@ nav {
     width: 70%; } }
 @media (max-width: 482px) {
   .form-container {
-    width: 95%; } }
+    width: 85%; } }
+@media (max-width: 450px) {
+  .form-container {
+    width: 100%; } }
 #slider {
   position: relative;
   overflow: hidden;
@@ -1036,6 +1039,12 @@ nav {
   .box-container {
     width: 90%;
     margin-top: 20px; } }
+@media (max-width: 400px) {
+  .box-container {
+    height: 650px;
+    font-size: 14px; }
+    .box-container strong {
+      font-size: 15px; } }
 body {
   padding: 0;
   margin: 0; }
