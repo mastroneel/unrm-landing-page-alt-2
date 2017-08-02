@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$dark-blue".
-        on line 30 of /Users/laurenmastroni/Code/Sites/unrm-landing-page-alt/sass/slider.scss
+        on line 30 of /Users/laurenmastroni/Code/Sites/unrm-landing-page-alt-2/sass/slider.scss
 
 25:   line-height: 1.5;
 26:   h5, h6, p {
@@ -15,7 +15,7 @@ Error: Undefined variable: "$dark-blue".
 35:     font-size: 22px;
 
 Backtrace:
-/Users/laurenmastroni/Code/Sites/unrm-landing-page-alt/sass/slider.scss:30
+/Users/laurenmastroni/Code/Sites/unrm-landing-page-alt-2/sass/slider.scss:30
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$dark-blue\".\A         on line 30 of /Users/laurenmastroni/Code/Sites/unrm-landing-page-alt/sass/slider.scss\A \A 25:   line-height: 1.5;\A 26:   h5, h6, p {\A 27:     font-family: NexaBold;\A 28:   }\A 29:   h5 {\A 30:     color: $dark-blue;\A 31:     font-size: 24px;\A 32:   }\A 33:   h6 {\A 34:     color: $medium-blue;\A 35:     font-size: 22px;"; }
+  content: "Error: Undefined variable: \"$dark-blue\".\A         on line 30 of /Users/laurenmastroni/Code/Sites/unrm-landing-page-alt-2/sass/slider.scss\A \A 25:   line-height: 1.5;\A 26:   h5, h6, p {\A 27:     font-family: NexaBold;\A 28:   }\A 29:   h5 {\A 30:     color: $dark-blue;\A 31:     font-size: 24px;\A 32:   }\A 33:   h6 {\A 34:     color: $medium-blue;\A 35:     font-size: 22px;"; }

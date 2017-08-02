@@ -1,12 +1,15 @@
 @import 'variables';
 
 .form-container {
-  // width: 90%;
-  margin: 0 auto;
-  background: $gray;
+  margin-top: 45px;
+  height: 100%;
+  background: rgba(10, 74, 123, 0.5);
+  margin-left: -20px;
   padding: 20px 30px 30px 30px;
-  border-radius: 4px;
   text-align: center;
+  .col-xs-12, .col-sm-6 {
+    padding: 0;
+  }
   img {
     width: 60%;
   }
@@ -14,9 +17,9 @@
     h2 {
       text-align: left;
       font-family: NexaBold;
-      color: $dark-blue;
+      color: #fff;
       font-size: 22px;
-      margin-top: 10px;
+      margin-top: 30px;
     }
     .border {
       height: 0;
@@ -30,22 +33,26 @@
     text-align: center;
     p {
       font-family: NexaBold;
-      color: $dark-blue;
-      margin-top: 10px;
+      color: #fff;
+      margin-top: 30px;
+      margin-left: 30px;
       text-align: left;
     }
     input {
-      width: 100%;
+      width: 90%;
       height: 35px;
       border-radius: 4px;
-      border: 1px solid #dedede;
+      border: 2px solid #dedede;
+      background: none;
+      color: #fff;
       font-size: 24px;
       margin-top: -10px;
     }
     .submit-button {
       width: 50%;
-      margin-top: 20px;
+      margin-top: 30px;
       background: $dark-blue;
+      border: 1px solid $dark-blue;
       color: #fff;
       font-family: NexaBold;
       font-size: 18px;
@@ -60,35 +67,35 @@
 //   }
 // }
 
-@media (max-width: 450px) {
-  .form-container {
-    padding: 20px 0px 30px 0px;
-    img {
-      width: 70%;
-    }
-    form {
-      p {
-        margin-top: 15px;
-      }
-      input {
-        height: 30px;
-        font-size: 20px;
-        width: 95%;
-      }
-      .submit-button {
-        height: 40px;
-        line-height: 40px;
-        width: 40%;
-      }
-    }
-    .form-header {
-      h2 {
-        font-size: 17px;
-        margin-top: 10px;
-      }
-    }
-  }
-}
+// @media (max-width: 450px) {
+//   .form-container {
+//     padding: 20px 0px 30px 0px;
+//     img {
+//       width: 70%;
+//     }
+//     form {
+//       p {
+//         margin-top: 15px;
+//       }
+//       input {
+//         height: 30px;
+//         font-size: 20px;
+//         width: 95%;
+//       }
+//       .submit-button {
+//         height: 40px;
+//         line-height: 40px;
+//         width: 40%;
+//       }
+//     }
+//     .form-header {
+//       h2 {
+//         font-size: 17px;
+//         margin-top: 10px;
+//       }
+//     }
+//   }
+// }
 
 // @media (max-width: 992px) {
 //   .form-container {
@@ -107,3 +114,34 @@
 //     width: 100%;
 //   }
 // }
+
+@media (max-width: 767px) {
+  .form-container {
+    margin: 70px auto 10px auto;
+    width: 85%;
+    height: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .form-container {
+    padding: 20px 5px 30px 5px;
+    margin: 70px auto 10px auto;
+    width: 100%;
+    height: auto;
+    form {
+      input {
+        width: 90%;
+      }
+      p {
+        margin-top: 15px;
+        margin-left: 5px;
+      }
+    }
+    .form-header {
+      h2 {
+        font-size: 18px;
+      }
+    }
+  }
+}

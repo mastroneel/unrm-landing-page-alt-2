@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$gray".
-        on line 2 of /Users/laurenmastroni/Code/Sites/unrm-landing-page-alt/sass/footer.scss
+        on line 2 of /Users/laurenmastroni/Code/Sites/unrm-landing-page-alt-2/sass/footer.scss
 
 1: .pre-footer {
 2:   background: $gray;
@@ -11,7 +11,7 @@ Error: Undefined variable: "$gray".
 7:     color: $dark-blue;
 
 Backtrace:
-/Users/laurenmastroni/Code/Sites/unrm-landing-page-alt/sass/footer.scss:2
+/Users/laurenmastroni/Code/Sites/unrm-landing-page-alt-2/sass/footer.scss:2
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -58,4 +58,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gray\".\A         on line 2 of /Users/laurenmastroni/Code/Sites/unrm-landing-page-alt/sass/footer.scss\A \A 1: .pre-footer {\A 2:   background: $gray;\A 3:   padding: 0px 50px;\A 4:   margin-top: -80px;\A 5:   h5 {\A 6:     font-family: NexaBold;\A 7:     color: $dark-blue;"; }
+  content: "Error: Undefined variable: \"$gray\".\A         on line 2 of /Users/laurenmastroni/Code/Sites/unrm-landing-page-alt-2/sass/footer.scss\A \A 1: .pre-footer {\A 2:   background: $gray;\A 3:   padding: 0px 50px;\A 4:   margin-top: -80px;\A 5:   h5 {\A 6:     font-family: NexaBold;\A 7:     color: $dark-blue;"; }
